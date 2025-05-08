@@ -1,0 +1,27 @@
+/* Light:  background-color: rgb(231, 245, 248);*/
+/* Light:  color: rgb(19, 16, 61);*/
+
+/* Dark:  background-color: rgb(3, 5, 31);*/
+/* Dark:  color: rgb(225, 237, 255);*/
+
+body.lightTheme{
+  background-color: rgb(231, 245, 248);
+  color: rgb(19, 16, 61);
+  border-color: black;
+}
+body.lightTheme header{
+  background-color: rgb(197, 219, 224);
+}
+body.darkTheme{
+  background-color: rgb(3, 5, 31);
+  color: rgb(225, 237, 255);
+  border-color: lightgray;
+}
+
+body.darkTheme #itemJogo,
+body.darkTheme header,
+body.darkTheme header button{
+  background-color:  rgb(3, 5, 31);
+  border-color: white;
+  color:  rgb(225, 237, 255);
+}
